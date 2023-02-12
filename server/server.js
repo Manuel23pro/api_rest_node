@@ -26,5 +26,5 @@ app.delete('/api/v1/products/:id',deleteProduct)
 
 // este condigo se asigna un puerto al servidor 
 app.listen(process.env.SERVER_PORT || 5000, () => {
-    console.log(`Server On Port ${process.env.SERVER_PORT}`)
+    console.log(`Server On Port ${process.env.PORT}`)
 })
