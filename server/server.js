@@ -17,6 +17,10 @@ app.get('/api/v1/products/:id', getProduct)
 app.post('/api/v1/products',addProduct)
 app.put('/api/v1/products/:id',updateProduct)
 app.delete('/api/v1/products/:id',deleteProduct)
+app.post('/api/user',(req,res)=>{
+    res.status(200).json("esto funciona")
+
+})
 
 
 
